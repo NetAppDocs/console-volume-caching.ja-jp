@@ -1,0 +1,12 @@
+---
+section: use
+title: ボリュームキャッシュを使用する
+entries:
+- title: ボリュームキャッシュの使用の概要
+  url: "/use/cache-use-overview.html"
+- title: キャッシュを作成する
+  url: "/use/cache-create.html"
+- title: キャッシュを管理する
+  url: "/use/cache-manage.html"
+- title: ボリュームキャッシュジョブを監視する
+  url: "/use/monitor-jobs.html"

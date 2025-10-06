@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are volume caching requirements, volume caching prerequisites 
+summary: ボリューム キャッシュを開始するには、まず環境、ネットワーク アクセス、ログイン、Web ブラウザーのサポートを確認します。 
+---
+= ボリュームキャッシュの前提条件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+まず、運用環境、ログイン、ネットワーク アクセス、Web ブラウザーの準備状況を確認します。
+
+ボリューム キャッシュを使用するには、環境がすべての要件を満たしていることを確認する必要があります。
+
+* ONTAP 9.8以降
++
+** クラスタ管理者ONTAP権限
+** クラスタ上のクラスタ間LIF
+
+
+* NetAppコンソールの場合:
++
+** コンソール エージェントは、 NetAppコンソールで設定する必要があります。すべてのソース クラスターとターゲット クラスターは同じコンソール エージェント上にある必要があります。参照 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^]そして https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コンソールエージェントについて学ぶ"^]。
+** 作業環境を整える必要があります。
+** クラスターは、ターゲットの作業環境にオンまたは低下した状態で追加する必要があります。
+** 標準的なNetAppコンソールの要件。参照 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["NetAppコンソールの要件"^]。
+
+
+

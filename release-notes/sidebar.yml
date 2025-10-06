@@ -1,0 +1,8 @@
+---
+section: release-notes
+title: リリース ノート
+entries:
+- title: 新機能
+  url: "/release-notes/cache-whats-new.html"
+- title: 既知の制限事項
+  url: "/release-notes/cache-limitations.html"

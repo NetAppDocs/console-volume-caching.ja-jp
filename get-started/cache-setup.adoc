@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: ボリューム キャッシュを使用するには、いくつかの手順を実行して設定します。 
+---
+= ボリュームキャッシュを設定する
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリューム キャッシュを使用するには、いくつかの手順を実行して設定します。
+
+* レビューlink:../get-started/cache-prerequisites.html["前提条件"]環境の準備ができていることを確認します。
+* コンソール エージェントを作成します。
+* ボリューム キャッシュをサポートできるシステムを作成します。
+
+
+
+
+== NetAppコンソールでコンソールエージェントを作成する
+
+次のステップは、 NetAppコンソールにコンソール エージェントを作成することです。
+
+ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetAppコンソールのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^] 。
+
+
+
+== システムを作成する
+
+まだ行っていない場合は、ソースとターゲットのシステムを作成する必要があります。
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["Amazon FSx for ONTAPシステムを作成する"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWSでCloud Volumes ONTAPを起動"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["AzureでCloud Volumes ONTAPを起動する"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["GCP でCloud Volumes ONTAP を起動"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["既存のCloud Volumes ONTAPシステムを追加する"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["ONTAPクラスタの検出"^]
+

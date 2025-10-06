@@ -1,0 +1,37 @@
+---
+indexpage:
+  lead: ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。ボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ
+    ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: ボリュームキャッシュについて学ぶ
+      url: "/get-started/cache-intro.html"
+    - title: ボリュームキャッシュの新機能
+      url: "/release-notes/cache-whats-new.html"
+    - title: クイック スタート
+      url: "/get-started/cache-quick-start.html"
+    - title: 前提条件
+      url: "/get-started/cache-prerequisites.html"
+    - title: ボリュームキャッシュオプションにアクセスする
+      url: "/get-started/cache-login.html"
+    - title: FAQ
+      url: "/get-started/cache-faq.html"
+  - title: ボリュームキャッシュを使用する
+    links:
+    - title: ボリュームキャッシュの使用の概要
+      url: "/use/cache-use-overview.html"
+    - title: キャッシュを作成する
+      url: "/use/cache-create.html"
+    - title: キャッシュを管理する
+      url: "/use/cache-manage.html"
+    - title: ボリュームキャッシュジョブを監視する
+      url: "/use/monitor-jobs.html"
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/

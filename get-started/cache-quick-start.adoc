@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-quick-start.html 
+keywords: how to get started with volume caching, volume caching quick start 
+summary: わずか数ステップでボリューム キャッシュを開始できます。 
+---
+= ボリュームキャッシュのクイックスタート
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリューム キャッシュを開始するために必要な手順の概要を次に示します。各ステップ内のリンクをクリックすると、詳細情報を提供するページに移動します。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1"]前提条件を確認する
+[role="quick-margin-para"]
+link:../get-started/cache-prerequisites.html["環境がこれらの要件を満たしていることを確認してください"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2"]ボリュームキャッシュを設定する
+[role="quick-margin-para"]
+link:../get-started/cache-setup.html["vlumeキャッシュを設定する"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三つ"]次は何?
+[role="quick-margin-para"]
+次に行うことは次のとおりです。
+
+[role="quick-margin-list"]
+* link:../use/cache-create.html["キャッシュを作成する"] 。
+* link:../use/cache-use-overview.html["キャッシュの管理、編集、サイズ変更、削除"] 。
+* link:../use/monitor-jobs.html["ボリュームキャッシュ操作を監視する"] 。
+

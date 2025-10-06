@@ -1,0 +1,13 @@
+= BlueXP volume caching
+:allow-uri-read: 
+
+
+
+
+=== BlueXP volume caching
+
+ONTAP 9 ソフトウェアの機能であるBlueXP volume cachingは、ファイル配布を簡素化し、リソースをユーザーやコンピューティング リソースの場所に近づけることで WAN の遅延を短縮し、WAN 帯域幅のコストを削減するリモート キャッシング機能です。ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。 BlueXP volume cachingを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
+
+BlueXP volume cachingを使用すると、作業環境としてAmazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP、オンプレミスなど、クラウド向けのキャッシング機能を利用できます。
+
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["ボリュームキャッシュの詳細"] 。

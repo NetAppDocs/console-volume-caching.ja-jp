@@ -1,0 +1,16 @@
+---
+section: get-started
+title: 始めましょう
+entries:
+- title: ボリュームキャッシュについて学ぶ
+  url: "/get-started/cache-intro.html"
+- title: 前提条件
+  url: "/get-started/cache-prerequisites.html"
+- title: クイック スタート
+  url: "/get-started/cache-quick-start.html"
+- title: ボリュームキャッシュを設定する
+  url: "/get-started/cache-setup.html"
+- title: ボリュームキャッシュオプションにアクセスする
+  url: "/get-started/cache-login.html"
+- title: FAQ
+  url: "/get-started/cache-faq.html"
