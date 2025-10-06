@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
 keywords: bluexp login, volume caching log in 
-summary: NetAppコンソールのサービスにアクセスして、ボリューム キャッシュを開始します。 
+summary: NetApp Consoleのサービスにアクセスして、ボリューム キャッシュを開始します。 
 ---
 = アクセスボリュームのキャッシュ
 :hardbreaks:
@@ -12,14 +12,14 @@ summary: NetAppコンソールのサービスにアクセスして、ボリュ�
 
 
 [role="lead"]
-ボリューム キャッシュ オプションにアクセスするには、 NetAppコンソールを使用します。
+ボリューム キャッシュ オプションにアクセスするには、 NetApp Consoleを使用します。
 
-NetAppコンソールにログインするには、 NetAppサポート サイトの資格情報を使用できます。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインについて詳しくはこちら"^] 。
+NetApp Consoleにログインするには、 NetAppサポート サイトの資格情報を使用できます。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインについて詳しくはこちら"^] 。
 
 .手順
 . ウェブブラウザを開いて、 https://console.netapp.com/["NetAppコンソール"^] 。
 +
-NetAppコンソールのログイン ページが表示されます。
+NetApp Consoleのログイン ページが表示されます。
 
 . コンソールにログインします。
 . コンソールの左側のナビゲーションから、*モビリティ* > *ボリューム キャッシュ* を選択します。

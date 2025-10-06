@@ -21,11 +21,11 @@ summary: ボリューム キャッシュを使用するには、いくつかの�
 
 
 
-== NetAppコンソールでコンソールエージェントを作成する
+== NetApp Consoleでコンソールエージェントを作成する
 
-次のステップは、 NetAppコンソールにコンソール エージェントを作成することです。
+次のステップは、 NetApp Consoleにコンソール エージェントを作成することです。
 
-ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetAppコンソールのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^] 。
+ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetApp Consoleのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^] 。
 
 
 
@@ -36,7 +36,7 @@ summary: ボリューム キャッシュを使用するには、いくつかの�
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["Amazon FSx for ONTAPシステムを作成する"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWSでCloud Volumes ONTAPを起動"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["AzureでCloud Volumes ONTAPを起動する"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["GCP でCloud Volumes ONTAP を起動"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["GCPでCloud Volumes ONTAPを起動"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["既存のCloud Volumes ONTAPシステムを追加する"^]
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["ONTAPクラスタの検出"^]
 
