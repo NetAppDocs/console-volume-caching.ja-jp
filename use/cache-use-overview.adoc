@@ -17,6 +17,5 @@ summary: ボリューム キャッシュは、リモートの場所に永続的�
 * link:../use/cache-create.html["キャッシュを作成する"] 。
 * link:../use/cache-manage.html#view-cache-details["キャッシュの詳細を表示"] 。
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["エクスポートポリシーを変更してキャッシュのサイズを変更する"] 。
-* link:../use/cache-manage.html#delete-a-volume-cache["キャッシュを削除する"] 。
 * link:../use/monitor-jobs.html["ボリュームキャッシュ操作を監視する"]NetApp Consoleの監査ページ。
 
