@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-prerequisites.html 
-keywords: what are volume caching requirements, volume caching prerequisites 
-summary: ボリューム キャッシュを開始するには、まず環境、ネットワーク アクセス、ログイン、Web ブラウザーのサポートを確認します。 
+keywords: what are Volume Caching requirements, Volume Caching prerequisites 
+summary: ボリューム キャッシュを開始するには、まず、環境、ネットワーク アクセス、ログイン、Web ブラウザーのサポートを確認します。 
 ---
 = ボリュームキャッシュの前提条件
 :hardbreaks:

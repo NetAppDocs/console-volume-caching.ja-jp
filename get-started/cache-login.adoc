@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
-keywords: bluexp login, volume caching log in 
+keywords: bluexp login, Volume Caching log in 
 summary: NetApp Consoleのサービスにアクセスして、ボリューム キャッシュを開始します。 
 ---
-= アクセスボリュームのキャッシュ
+= アクセスボリュームキャッシュ
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -24,10 +24,10 @@ NetApp Consoleのログイン ページが表示されます。
 . コンソールにログインします。
 . コンソールの左側のナビゲーションから、*モビリティ* > *ボリューム キャッシュ* を選択します。
 +
-ボリューム キャッシュ ダッシュボードが表示されます。image:landing-page.png["ボリュームキャッシュのランディングページの画像"]
+ボリューム キャッシュ ダッシュボードが表示されます。 image:landing-page.png["ボリュームキャッシュのランディングページの画像"]
 
 +
 
-NOTE: コンソール エージェントが設定されていない場合は、*コンソール エージェントの追加* オプションが表示されます。。 link:../get-started/cache-setup.html["ボリュームキャッシュを設定する"] 。
+NOTE: コンソール エージェントが設定されていない場合は、*コンソール エージェントの追加* オプションが表示されます。参照link:../get-started/cache-setup.html["ボリュームキャッシュを設定する"]。
 
 

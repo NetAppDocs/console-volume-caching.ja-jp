@@ -1,12 +1,12 @@
-= BlueXP volume cachingはボリュームキャッシュになりました
+= BlueXPボリュームキャッシュはボリュームキャッシュになりました
 :allow-uri-read: 
 
 
 
 
-=== BlueXP volume cachingはボリュームキャッシュになりました
+=== BlueXPボリュームキャッシュはボリュームキャッシュになりました
 
-BlueXP volume cachingの名前がボリューム キャッシュに変更されました。
+BlueXP Volume Caching は Volume Caching に名前が変更されました。
 
 NetApp Consoleの左側のナビゲーション バーから *Mobility* > *Volume caching* を選択してアクセスできます。
 

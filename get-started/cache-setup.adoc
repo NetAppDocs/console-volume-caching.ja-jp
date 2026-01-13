@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-setup.html 
-keywords: bluexp, volume caching, 
+keywords: bluexp, Volume Caching, 
 summary: ボリューム キャッシュを使用するには、いくつかの手順を実行して設定します。 
 ---
 = ボリュームキャッシュを設定する
@@ -25,7 +25,7 @@ summary: ボリューム キャッシュを使用するには、いくつかの�
 
 次のステップは、 NetApp Consoleにコンソール エージェントを作成することです。
 
-ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetApp Consoleのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^] 。
+ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetApp Consoleのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^]。
 
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: release-notes/cache-limitations.html 
-keywords: volume caching, bluexp 
+keywords: Volume Caching, bluexp 
 summary: 既知の制限事項では、このリリースのサービスでサポートされていない、または正しく相互運用されないプラットフォーム、デバイス、または機能が特定されます。 
 ---
 = ボリュームキャッシュの既知の制限

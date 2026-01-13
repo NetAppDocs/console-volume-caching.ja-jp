@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: release-notes/cache-whats-new.html 
-keywords: volume caching faq, bluexp, volume caching frequently asked questions 
+keywords: Volume Caching faq, bluexp, Volume Caching frequently asked questions 
 summary: ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。ボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。 
 ---
 = ボリュームキャッシュの新機能
@@ -20,9 +20,9 @@ summary: ボリューム キャッシュは、リモートの場所に永続的�
 
 
 
-=== BlueXP volume cachingはボリュームキャッシュになりました
+=== BlueXPボリュームキャッシュはボリュームキャッシュになりました
 
-BlueXP volume cachingの名前がボリューム キャッシュに変更されました。
+BlueXP Volume Caching は Volume Caching に名前が変更されました。
 
 NetApp Consoleの左側のナビゲーション バーから *Mobility* > *Volume caching* を選択してアクセスできます。
 
@@ -40,10 +40,10 @@ NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され
 
 
 
-=== BlueXP volume caching
+=== BlueXPボリュームキャッシュ
 
-ONTAP 9 ソフトウェアの機能であるBlueXP volume cachingは、ファイル配布を簡素化し、リソースをユーザーやコンピューティング リソースの場所に近づけることで WAN の遅延を短縮し、WAN 帯域幅のコストを削減するリモート キャッシング機能です。ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。BlueXP volume cachingを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
+ONTAP 9 ソフトウェアの機能であるBlueXPボリューム キャッシュは、ファイル配布を簡素化し、リソースをユーザーやコンピューティング リソースの場所に近づけることで WAN の遅延を短縮し、 WAN帯域幅のコストを削減するリモートキャッシュ機能です。ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。BlueXPボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
 
-BlueXP volume cachingを使用すると、作業環境としてAmazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP、オンプレミスなど、クラウド向けのキャッシング機能を利用できます。
+BlueXP Volume Caching を使用すると、作業環境としてAmazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP、オンプレミスなど、クラウド向けのキャッシュ機能を利用できます。
 
 link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["ボリュームキャッシュの詳細"] 。

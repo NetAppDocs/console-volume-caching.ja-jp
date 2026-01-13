@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-faq.html 
-keywords: volume caching faq, caching frequently asked questions 
+keywords: Volume Caching faq, caching frequently asked questions 
 summary: 質問に対する簡単な回答を探している場合は、この FAQ が役立ちます。 
 ---
 = ボリュームキャッシュに関するよくある質問
@@ -14,7 +14,7 @@ summary: 質問に対する簡単な回答を探している場合は、この F
 [role="lead"]
 質問に対する簡単な回答を探している場合は、この FAQ が役立ちます。
 
-*ボリューム キャッシュ URL とは何ですか?*  URL については、ブラウザで次のように入力します。 https://console.netapp.com/["https://console.netapp.com/"^] BlueXPコンソールにアクセスします。
+*ボリューム キャッシュ URL とは何ですか?*URL については、ブラウザで次のように入力します。 https://console.netapp.com/["https://console.netapp.com/"^] BlueXPコンソールにアクセスします。
 
 *ボリューム キャッシュを使用するにはライセンスが必要ですか?*NetAppライセンス ファイル (NLF) は必要ありません。
 
