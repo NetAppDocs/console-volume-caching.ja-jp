@@ -28,6 +28,7 @@ NOTE: キャッシュされたボリュームによって使用される IPSpace
 
 
 
+[[steps-from-the-volume-caching-landing-page]]
 == ボリュームキャッシュのランディングページからの手順
 
 . NetApp Consoleにログインします。
@@ -72,6 +73,7 @@ TIP: 経験則としては、キャッシュ ボリュームのサイズはソ�
 
 
 
+[[steps-from-the-netapp-console-systems-page]]
 == NetApp Consoleシステムページからの手順
 
 . NetApp Consoleシステム ページから、作業環境を選択します。

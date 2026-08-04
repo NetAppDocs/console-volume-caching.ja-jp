@@ -21,14 +21,16 @@ summary: ボリューム キャッシュを使用するには、いくつかの�
 
 
 
+[[create-a-console-agent-in-the-netapp-console]]
 == NetApp Consoleでコンソールエージェントを作成する
 
 次のステップは、 NetApp Consoleにコンソール エージェントを作成することです。
 
-ボリュームキャッシュを使用する前にコンソールエージェントを作成するには、 NetApp Consoleのドキュメントを参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["コンソールエージェントを作成する方法"^]。
+Volume Caching を使用する前にコンソールエージェントを作成するには、link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#what-a-console-agent-does["コンソールエージェント"^]の NetApp Console ドキュメントを参照してください。
 
 
 
+[[create-systems]]
 == システムを作成する
 
 まだ行っていない場合は、ソースとターゲットのシステムを作成する必要があります。

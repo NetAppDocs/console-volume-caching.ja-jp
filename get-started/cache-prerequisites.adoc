@@ -24,7 +24,7 @@ summary: ボリューム キャッシュを開始するには、まず、環境�
 
 * NetApp Consoleの場合:
 +
-** コンソール エージェントは、NetApp Consoleで設定する必要があります。すべてのソース クラスターとターゲット クラスターは同じコンソール エージェント上にある必要があります。参照 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^]そして https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コンソールエージェントについて学ぶ"^]。
+** コンソールエージェントは、NetApp Console でセットアップする必要があります。ソースクラスターとターゲットクラスターはすべて、同じコンソールエージェント上に存在する必要があります。link:https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["NetApp Console の使用開始ワークフロー"^]およびlink:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html["コンソールエージェントについて学ぶ"^]を参照してください。
 ** 作業環境を整える必要があります。
 ** クラスターは、ターゲットの作業環境にオンまたは低下した状態で追加する必要があります。
 ** 標準的なNetApp Consoleの要件。参照 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["NetApp Consoleの要件"^]。
