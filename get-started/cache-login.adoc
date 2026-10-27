@@ -4,7 +4,7 @@ permalink: get-started/cache-login.html
 keywords: bluexp login, Volume Caching log in 
 summary: NetApp Consoleのサービスにアクセスして、ボリューム キャッシュを開始します。 
 ---
-= アクセスボリュームキャッシュ
+= NetApp Volume Cachingへのアクセス
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

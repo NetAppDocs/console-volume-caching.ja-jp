@@ -20,8 +20,6 @@ indexpage:
       url: "/get-started/cache-faq.html"
   - title: ボリュームキャッシュを使用する
     links:
-    - title: ボリュームキャッシュの概要
-      url: "/use/cache-use-overview.html"
     - title: キャッシュを作成する
       url: "/use/cache-create.html"
     - title: キャッシュを管理する

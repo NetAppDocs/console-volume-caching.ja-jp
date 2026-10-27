@@ -42,7 +42,6 @@
   <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">コンソールにログインします。</block>
   <block id="685bf0c6938aac694b7f715ca5ab7594" category="list-text">コンソールの左側のナビゲーションから、*モビリティ* &gt; *ボリューム キャッシュ* を選択します。</block>
   <block id="e9d0563880c518332c5657bb388dc935" category="inline-image-macro">ボリュームキャッシュのランディングページの画像</block>
-  <block id="783400bbca91266f6f919a9d8401a790" category="doc">ボリュームキャッシュの前提条件</block>
   <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">まず、運用環境、ログイン、ネットワーク アクセス、Web ブラウザーの準備状況を確認します。</block>
   <block id="9e25219bfef39dc2d94805b599244f8d" category="list-text">ONTAP 9.8以降</block>
   <block id="6bc8ee47a10f11a50d1b88f0e1669fee" category="list-text">クラスタ管理者ONTAP権限</block>
@@ -65,8 +64,6 @@
   <block id="d2b78bb589121de795035bc504cc0150" category="paragraph">次に行うことは次のとおりです。</block>
   <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="inline-link-macro">キャッシュを作成する</block>
   <block id="6d8c022b864e0ac2a0521e01b0a148ef" category="list-text"><block ref="08994cd66141241fcfdbc13ed0e82eff" category="inline-link-macro-rx"></block> 。</block>
-  <block id="36d2dfb130cc56d5eda3b8749b5bd6df" category="inline-link-macro">キャッシュの管理、編集、サイズ変更、削除</block>
-  <block id="7feb77d14601611c1fbc66f8aea36e7b" category="list-text"><block ref="06832ac35077da45cc1af571e236bfcd" category="inline-link-macro-rx"></block> 。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">前提条件</block>
   <block id="28afabf1cd8784eb84b3926b994169ea" category="list-text">レビュー<block ref="c6b48cc2d47e2f989af724d3298e55c0" category="inline-link-macro-rx"></block>環境の準備ができていることを確認します。</block>
   <block id="3847705074d8f4f4a3ad3b8e472e4a7c" category="list-text">コンソール エージェントを作成します。</block>
@@ -193,9 +190,6 @@
   <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">キャッシュ ボリュームのサイズは新しいパーセンテージに合わせて変更されます。</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">*削除*を選択します。</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">ボックスにチェックを入れてください。</block>
-  <block id="086ae240dc59a72dee947da562cf17da" category="list-text"><block ref="638e664503cbc2b4d03651ad48f065e4" category="inline-link-macro-rx"></block> 。</block>
-  <block id="57eaca7fde0d682a5f4bb1194791b589" category="inline-link-macro">エクスポートポリシーを変更してキャッシュのサイズを変更する</block>
-  <block id="403db9049e8fc74fb1c958367db6cfab" category="list-text"><block ref="63c74ca1cdc9ec0d7fd9f52c97b2e161" category="inline-link-macro-rx"></block> 。</block>
   <block id="08f83993cc2b93af6175018abeb278b0" category="summary">ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。NetAppボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームからのトラフィックをオフロードしたりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。</block>
   <block id="da27a3a4029fc8a5d227b9d73327f99d" category="list-text">NetApp Consoleメニューから、*管理* &gt; *監査* を選択します。</block>
   <block id="cb7056f588b57ee15c8c6aa56fe4dd4a" category="list-text">必要に応じて、時間、サービス、アクション、エージェント、リソース、ユーザー、またはステータスでフィルタリングします。</block>
@@ -217,7 +211,6 @@
   <block id="4b2fc04d71554e53f61c6c4001e2b287" category="paragraph">BlueXP Volume Caching を使用すると、作業環境としてAmazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP、オンプレミスなど、クラウド向けのキャッシュ機能を利用できます。</block>
   <block id="033e2516825fa188c29e35e7c32156f0" category="doc">BlueXPボリュームキャッシュはボリュームキャッシュになりました</block>
   <block id="81f5cfd86553bef12a7f07a5e054d153" category="paragraph">BlueXP Volume Caching は Volume Caching に名前が変更されました。</block>
-  <block id="944de674eb4a05a94f0f416e5231a567" category="doc">ボリュームキャッシュに関するよくある質問</block>
   <block id="b2220f076c005c14cef060497d839343" category="paragraph">*ボリューム キャッシュを使用するにはライセンスが必要ですか?*NetAppライセンス ファイル (NLF) は必要ありません。</block>
   <block id="f788ef9bf8e4b88d2e7224fcf76da51b" category="paragraph">*ボリューム キャッシュを有効にするにはどうすればいいですか?*ボリューム キャッシュを有効にする必要はありません。ボリューム キャッシュ オプションは、NetApp Consoleの左側のナビゲーションに自動的に表示されます。</block>
   <block id="f5bcb165d2c026accbfd21dc4ade2dd0" category="summary">ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。ボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。</block>
@@ -231,7 +224,6 @@
   <block id="6596318b2186d863bd6851ede5ee91c9" category="section-title">ボリュームキャッシュの仕組み</block>
   <block id="72e2b4490e5fa25b9d294507a160d51d" category="paragraph">ボリューム キャッシュは、クライアントが要求したデータがキャッシュ ボリュームに含まれている場合に要求を読み取ります。それ以外の場合、ボリューム キャッシュ サービスはソース ボリュームからデータを要求し、クライアント要求に応える前にデータを保存します。その後のデータ要求はキャッシュ ボリュームから直接提供されます。これにより、最初のリクエスト後は、データがネットワークを介して移動したり、過負荷のシステムから提供される必要がなくなるため、同じデータに繰り返しアクセスする場合のパフォーマンスが向上します。</block>
   <block id="0984bad2a8a496db79f029c55177dd85" category="summary">NetApp Consoleのサービスにアクセスして、ボリューム キャッシュを開始します。</block>
-  <block id="522d9bd14dfc30e55cb7209adfdb8eea" category="doc">アクセスボリュームキャッシュ</block>
   <block id="006e769dfd8965eab4630dcb8377c3ea" category="paragraph">ボリューム キャッシュ オプションにアクセスするには、 NetApp Consoleを使用します。</block>
   <block id="0d9a145dab06760ec0b417a281a1268b" category="paragraph">ボリューム キャッシュ ダッシュボードが表示されます。 <block ref="1d5ddc4a04ccc8130b7d403f1b6e6b88" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f0b492dd4990a6b43e64e6f06e156df2" category="inline-link-macro">ボリュームキャッシュを設定する</block>
@@ -239,17 +231,13 @@
   <block id="7ee2d9ffe0860e3636b0a8afa7656d0a" category="summary">ボリューム キャッシュを開始するには、まず、環境、ネットワーク アクセス、ログイン、Web ブラウザーのサポートを確認します。</block>
   <block id="6be39a76555626ccc4abd6cbf047cdd4" category="paragraph">ボリューム キャッシュを使用するには、環境がすべての要件を満たしていることを確認する必要があります。</block>
   <block id="2d8cece0049367991b914b6b1a3c3f95" category="summary">わずか数ステップでボリューム キャッシュを開始できます。</block>
-  <block id="1970c0c9f9c999a61d6932701ece9ead" category="doc">ボリュームキャッシュのクイックスタート</block>
   <block id="b3652feb277631ac5ea4ae7697ca0544" category="paragraph">ボリューム キャッシュを開始するために必要な手順の概要を次に示します。各ステップ内のリンクをクリックすると、詳細情報を提供するページに移動します。</block>
   <block id="a2ebee079f16a4dd5be0168a3956a0c0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> ボリュームキャッシュを設定する</block>
   <block id="503192a68053645c73e6980f1ccb3ccb" category="inline-link-macro">ボリュームキャッシュ操作を監視する</block>
   <block id="3edd8a9fa9947416caecc886e46fdaed" category="list-text"><block ref="a01ab11ac22ae6b95a3895f32824a3bb" category="inline-link-macro-rx"></block>。</block>
   <block id="ada3c6bfdc22ece41e035ddca47abb5d" category="summary">ボリューム キャッシュを使用するには、いくつかの手順を実行して設定します。</block>
   <block id="14b492c5a59daceff1c47e1fa3ab1153" category="list-text">ボリューム キャッシュをサポートできるシステムを作成します。</block>
-  <block id="0a063cd26a1bbcc09925261862a0a057" category="doc">ボリュームキャッシュの既知の制限</block>
-  <block id="55faa3077ad6eac1174df58be9138964" category="doc">ボリュームキャッシュの新機能</block>
   <block id="edab0746c168cf99de3d1184db89eae9" category="paragraph">ボリューム キャッシュの新機能について説明します。</block>
-  <block id="2596872be52ae24ad1bcecec5ebebdf5" category="doc">ボリュームキャッシュを使用してキャッシュを作成する</block>
   <block id="40bffc6e5a41371152da5daf50118a7c" category="paragraph">ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。ボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュされたボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。ソースシステムの 1 つ以上のソースボリュームをキャッシュソースとして使用して、 Amazon FSx for ONTAP、 Cloud Volumes ONTAP、オンプレミスONTAP間のボリュームキャッシュを作成できます。次に、キャッシュ ボリュームのストレージ仮想マシンを選択します。</block>
   <block id="ab380cc6aa3b67ca5f33cf0f42933ba2" category="section-title">ボリュームキャッシュのランディングページからの手順</block>
   <block id="d8de82c9c43ef18d8abcf4c2453d43d6" category="paragraph">ボリューム キャッシュ ダッシュボード ページが表示されます。ボリューム キャッシュ オプションを初めて使用する場合、キャッシュ情報を追加する必要があります。その後、代わりにダッシュボードが表示され、キャッシュに関するデータが表示されます。</block>
@@ -259,21 +247,15 @@
   <block id="affcb246f5ad24ec6b828f8924c8d053" category="list-text">ボリューム キャッシュを編集し、サイズなどを変更します。編集には他のプロパティを表示および変更するオプションがあり、今後のリリースでは編集にさらに多くのプロパティが追加される予定です。</block>
   <block id="b7ccf72261654a1124ca86db25a61682" category="list-text">NetApp Consoleの左側のナビゲーションから、*Mobility* &gt; *Volume Caching* を選択します。</block>
   <block id="83c798e0c9245ebfa233ca02f0ce296c" category="paragraph">キャッシュが不要になった場合は削除できます。これにより、ボリューム キャッシュ関係が削除され、ターゲット ボリューム キャッシュが削除されます。</block>
-  <block id="a4728e0d5e034526a76a2bcf15fc2fb5" category="doc">ボリュームキャッシュの使用の概要</block>
-  <block id="15e2bee7208afa4bce8f49e8622cfeb3" category="paragraph">ボリューム キャッシュを使用すると、次の目標を達成できます。</block>
-  <block id="d98e80f17411ff34bd8cefdeb4d9c9ca" category="list-text"><block ref="a01ab11ac22ae6b95a3895f32824a3bb" category="inline-link-macro-rx"></block> NetApp Consoleの監査ページ。</block>
-  <block id="cdbe10615b18836cd5229608034b3885" category="doc">監査ページでボリューム キャッシュ ジョブを監視する</block>
   <block id="bfa48a0000150f1a127692fcbbd95675" category="paragraph">NetApp Consoleの監査ページを使用して、すべてのボリューム キャッシュ ジョブを監視し、その進行状況を確認できます。</block>
   <block id="6f267103f7f652e22e0ead9f66014cd4" category="sidebar">NetApp Volume Caching</block>
   <block id="c16fdea743f635a195afe62e710ad0e4" category="sidebar">ボリュームキャッシュの新機能</block>
   <block id="c36dbd5882b0638107e564376ac7202c" category="sidebar">ボリュームキャッシュオプションにアクセスする</block>
   <block id="ddd8febf1be514ee5966f657288dabb1" category="sidebar">ボリュームキャッシュを使用する</block>
-  <block id="cfa34b29283f7edb5353b2f0136a0382" category="sidebar">ボリュームキャッシュの概要</block>
   <block id="aaac6bc909fa38965c87187f77135ba2" category="sidebar">ボリュームキャッシュジョブを監視する</block>
   <block id="5d242f37d3e1a8b2a39ebe59f053d249" category="paragraph">*ボリュームキャッシュのURLとは何ですか？*URLについては、ブラウザに次のように入力してください：<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> NetApp Consoleにアクセスします。</block>
   <block id="e3fe60bde26f43a3a5d1ce1113e7cf59" category="paragraph"><block ref="1d67e8a78a200565a68ec48273c17246" category="inline-link-macro-rx"></block>の詳細については、こちらをご覧ください。</block>
   <block id="0b1338766341d9e4efb068789c59087a" category="inline-link-macro">NetApp Console の使用開始ワークフロー</block>
-  <block id="a4b080650236b34a40c4af6fc3e19f10" category="list-text">コンソールエージェントは、NetApp Console でセットアップする必要があります。ソースクラスターとターゲットクラスターはすべて、同じコンソールエージェント上に存在する必要があります。<block ref="7803a6edb330ab0992b6c2bdbd7b02cf" category="inline-link-macro-rx"></block>および<block ref="60ce1b0a0c322e03a03b2c2641ba72c3" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="033ce09819d553e6a77430de2f0cc899" category="inline-link-macro">コンソールエージェント</block>
   <block id="27c7051c6017205575df5ebdcc242391" category="paragraph">Volume Caching を使用する前にコンソールエージェントを作成するには、<block ref="760d18c67ed0461ccd4efce45502f48f" category="inline-link-macro-rx"></block>の NetApp Console ドキュメントを参照してください。</block>
   <block id="0c798cc11f8ddc52d0bd3006eaa122fc" category="summary">NetApp はコンソールをさまざまな方法でサポートしています。ナレッジベース（KB）の記事やコミュニティフォーラムなど、充実した無料のセルフサポートオプションが24時間365日ご利用いただけます。サポート登録には、Webチケットによるリモート技術サポートが含まれています。</block>
@@ -419,4 +401,20 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">これはシステムによって生成されたIDで、お客様のメールアドレスにマッピングされます。*NSS管理*ページの<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>メニューからメールアドレスを表示できます。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">ログイン資格情報トークンを更新する必要がある場合は、<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> メニューに*資格情報の更新*オプションもあります。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを選択すると、再度ログインを求められます。これらのアカウントのトークンは 90 日後に有効期限が切れることにご注意ください。この件については、通知が掲載されますのでご確認ください。</block>
+  <block id="eab58e1d970237221383b09ffe1d5c86" category="doc">NetApp Volume Cachingに関するよくある質問</block>
+  <block id="e1d95a674799ededdc684d7223506d7b" category="doc">NetApp Volume Cachingについて</block>
+  <block id="f2dd2401ff5c3188915c73da5a12702c" category="doc">NetApp Volume Cachingへのアクセス</block>
+  <block id="c3f67b582c44a6153a9332777610d257" category="doc">NetApp Volume Cachingの前提条件</block>
+  <block id="c41bb11b4cfa2e8457552c1e492ee1b7" category="list-text">Consoleエージェントは、NetApp Consoleでセットアップする必要があります。すべてのソースクラスタとターゲットクラスタは、同じConsoleエージェント上にある必要があります。<block ref="7803a6edb330ab0992b6c2bdbd7b02cf" category="inline-link-macro-rx"></block>および<block ref="60ce1b0a0c322e03a03b2c2641ba72c3" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="2ef62921b9052488dc447fb605429a36" category="doc">NetApp Volume Cachingのクイックスタート</block>
+  <block id="cf997587c175eab687f1c94d8e0dd275" category="list-text"><block ref="be4a66e39669afe0b43fafdc5b54ebdd" category="inline-link-macro-rx"></block>。</block>
+  <block id="fd06bc4b0fb6177a274a02d499c9a2f2" category="doc">NetApp Volume Cachingの設定</block>
+  <block id="23a48427348f09c9c9ec57550deef657" category="doc">NetApp Volume Cachingの法的通知</block>
+  <block id="f7a39f371e65086e9b9b3c39396dd0d6" category="doc">NetApp Volume Cachingの既知の制限事項</block>
+  <block id="8677fee464cec8ba0de99992db85ad7e" category="doc">NetApp Volume Cachingの新機能</block>
+  <block id="86d05b78bb98743e2602772c13a2e077" category="doc">NetApp Volume Caching に関するヘルプ</block>
+  <block id="fd32fb93ba0bc85ef429d4f0f3334e9f" category="doc">NetApp Volume Cachingサポートへの登録</block>
+  <block id="4e692b664686ba8be02357822db446b2" category="doc">NetApp Volume Cachingを使用してキャッシュを作成する</block>
+  <block id="082dbbfa6d531e507360f64a0bb2e00e" category="doc">NetApp Volume Cachingでキャッシュを管理する</block>
+  <block id="c2a44dd0dc880198657072bcb1f11fb8" category="doc">監査ページでNetApp Volume Cachingジョブを監視します</block>
 </blocks>

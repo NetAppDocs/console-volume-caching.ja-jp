@@ -4,7 +4,7 @@ permalink: get-started/cache-quick-start.html
 keywords: how to get started with Volume Caching, Volume Caching quick start 
 summary: わずか数ステップでボリューム キャッシュを開始できます。 
 ---
-= ボリュームキャッシュのクイックスタート
+= NetApp Volume Cachingのクイックスタート
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -28,6 +28,6 @@ link:../get-started/cache-setup.html["vlumeキャッシュを設定する"] 。
 
 [role="quick-margin-list"]
 * link:../use/cache-create.html["キャッシュを作成する"] 。
-* link:../use/cache-use-overview.html["キャッシュの管理、編集、サイズ変更、削除"] 。
+* link:../use/cache-manage.html["キャッシュを管理する"]。
 * link:../use/monitor-jobs.html["ボリュームキャッシュ操作を監視する"]。
 

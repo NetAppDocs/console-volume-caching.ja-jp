@@ -4,7 +4,7 @@ permalink: release-notes/cache-whats-new.html
 keywords: Volume Caching faq, bluexp, Volume Caching frequently asked questions 
 summary: ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。ボリューム キャッシュを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。 
 ---
-= ボリュームキャッシュの新機能
+= NetApp Volume Cachingの新機能
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

@@ -4,7 +4,7 @@ permalink: get-started/cache-setup.html
 keywords: bluexp, Volume Caching, 
 summary: ボリューム キャッシュを使用するには、いくつかの手順を実行して設定します。 
 ---
-= ボリュームキャッシュを設定する
+= NetApp Volume Cachingの設定
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

@@ -4,7 +4,7 @@ permalink: get-started/cache-faq.html
 keywords: Volume Caching faq, caching frequently asked questions 
 summary: 質問に対する簡単な回答を探している場合は、この FAQ が役立ちます。 
 ---
-= ボリュームキャッシュに関するよくある質問
+= NetApp Volume Cachingに関するよくある質問
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
